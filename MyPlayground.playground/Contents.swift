@@ -21,6 +21,3 @@ let some_string = """
     I am raghav
     I am a human
 """
-
-
-
