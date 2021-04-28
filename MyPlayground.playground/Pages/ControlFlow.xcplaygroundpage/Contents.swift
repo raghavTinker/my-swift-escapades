@@ -20,3 +20,37 @@ else{
 
 //Switch Case
 
+let vegetable: String = "red pepper"
+
+switch vegetable{
+    case "celery":
+        print("Add some raisins and make ants on a log")
+    case "cucumber", "watercress":
+        print("This is great for tea sandwhiches")
+    case let x where x.hasSuffix("pepper"):
+        print("Is it a spicy \(x)?")
+    default:
+        print("everything tastes fine")
+}
+
+//For loops over dictionaries
+
+for (shortForm, actual) in myDict{
+    print("\(shortForm) = \(actual)")
+}
+
+var total = 0
+
+for i in 0..<4{
+    total+=i
+}
+print(total)
+
+//While loop
+
+var count = 0
+
+while count < 5{
+    print("Hello")
+    count+=1
+}
