@@ -91,3 +91,45 @@ print(triangle.perimeter) //Will call the getter of the perimeter member
 triangle.perimeter = 9 //This is the setter function called
 print(triangle.sideLength)
 print(triangle.perimeter)
+
+
+//Property observers
+/*
+    observers observe and respond to changes in a property's value. Property observers are called every time a property's value is set even if new value is the same as property's current value
+ */
+
+class StepCounter{
+    var totalSteps: Int = 0{
+        willSet(newTotalSteps){
+            print("About to set totalsteps to \(newTotalSteps)")
+            
+        }
+        
+        didSet{
+            if totalSteps > oldValue{
+                print("Added \(totalSteps - oldValue) steps")
+            }
+        }
+    }
+}
+
+var stepCounter = StepCounter()
+var s1 = stepCounter
+stepCounter.totalSteps = 200
+stepCounter.totalSteps = 1000
+
+
+//As you see in the output as we keep changing/assigning the value two print statements come. the first is the willSet (about to set) then the didSet just after setting the value
+
+
+//If you assign an object to another object then the new variable will point to the original object
+//Example:
+//stepCounter is an object of StepCounter another object is made s1
+//s1 = stepCounter
+
+//Now after changiong the values in stepCounter
+print(s1.totalSteps) //will be 1000  Refrence types
+
+
+
+
