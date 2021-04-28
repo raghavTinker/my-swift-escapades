@@ -8,5 +8,6 @@ c)ControlFlow =>       `MyPlayground.playground/Pages/ControlFlow.xcplaygroundpa
 d)OptionalUnwrapping=> `MyPlayground.playground/Pages/OptionalUnwrapping.xcplaygroundpage/Contents.swift`<br>
 e)FunctionClosure=>    `MyPlayground.playground/Pages/FunctionClosure.xcplaygroundpage/Contents.swift`<br>
 f)OOP=>                `MyPlayground.playground/Pages/OOP.xcplaygroundpage/Contents.swift`<br>
+g)Enumerations=>                `MyPlayground.playground/Pages/Enums.xcplaygroundpage/Contents.swift`<br>
 <br>
 You can download the playground and open it in xcode for an easier viewing experience
