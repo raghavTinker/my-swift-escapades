@@ -5,5 +5,7 @@
         <page name='Introduction'/>
         <page name='ControlFlow'/>
         <page name='OptionalUnwrapping'/>
+        <page name='FunctionsClosure'/>
+        <page name='OOP'/>
     </pages>
 </playground>
