@@ -4,5 +4,6 @@
         <page name='CollectionOfItems'/>
         <page name='Introduction'/>
         <page name='ControlFlow'/>
+        <page name='OptionalUnwrapping'/>
     </pages>
 </playground>
