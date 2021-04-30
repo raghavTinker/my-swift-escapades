@@ -129,3 +129,86 @@ stepCounter.totalSteps = 1000
 
 //Now after changiong the values in stepCounter
 print(s1.totalSteps) //will be 1000  Refrence types
+
+//PROPERTIES
+
+class Person{
+    var name: String = ""
+    
+    init(name: String){
+        self.name = name
+    }
+}
+
+class Employee: Person{
+    var salary: Int = 0
+    var role: String = ""
+    
+    init(salary: Int, role: String, name: String){
+        self.salary = salary
+        self.role = role
+        super.init(name: name)
+    }
+    func doWork(){
+        print("Hi my name is \(name) and I am doing work")
+        salary+=1
+    }
+}
+
+class Manager: Employee{
+    var teamSize = 0
+    var bonus: Int{ //Computed property
+        return teamSize * 1000
+    }
+    init(salary: Int, role: String, name: String, teamSize: Int){
+        super.init(salary: salary, role : role, name: name)
+        self.teamSize = teamSize
+    }
+    override func doWork(){
+        super.doWork()
+        print("I am managing people")
+        salary+=2
+    }
+}
+
+var raghav = Manager(salary: 12, role: "CEO", name: "Raghav", teamSize: 390)
+print(raghav.name)
+
+
+//Designated and convenience initializers
+//initializer should also make sure that the members are filled properly
+
+//Designated initilizers ensure that the object is ready to be used
+class PersonTest{
+    var name: String
+    var netWorth: Int?//By default nil
+    var gender: String!//By defualt nil Already unwrapped
+    
+    init(){
+        name = "None"
+    }
+}
+
+let a = PersonTest()
+print(a.name)
+
+//Conveniance initializers 
+
+class PersonTest2{
+    var name: String
+    var netWorth: Int?//By default nil
+    var gender: String!//By defualt nil Already unwrapped
+    
+    init(){
+        name = "None"
+    }
+    
+    convenience init(_gender: String, _networth: Int){
+        self.init()
+        self.gender = gender
+        self.netWorth = netWorth
+    }
+}
+
+
+let n = PersonTest2(_gender: "female", _networth: 100000)
