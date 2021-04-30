@@ -129,7 +129,3 @@ stepCounter.totalSteps = 1000
 
 //Now after changiong the values in stepCounter
 print(s1.totalSteps) //will be 1000  Refrence types
-
-
-
-
