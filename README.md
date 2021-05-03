@@ -21,6 +21,8 @@
 => [`MyPlayground.playground/Pages/Structures.xcplaygroundpage/Contents.swift`](https://github.com/raghavTinker/my-swift-escapades/blob/main/MyPlayground.playground/Pages/Structures.xcplaygroundpage/Contents.swift)<br>
 ### i)Structures
 => [`MyPlayground.playground/Pages/Protocols.xcplaygroundpage/Contents.swift`](https://github.com/raghavTinker/my-swift-escapades/blob/main/MyPlayground.playground/Pages/Protocols.xcplaygroundpage/Contents.swift)<br>
+### j)ErrorHandling
+=> [`MyPlayground.playground/Pages/ErrorHandling.xcplaygroundpage/Contents.swift`](https://github.com/raghavTinker/my-swift-escapades/blob/main/MyPlayground.playground/Pages/ErrorHandling.xcplaygroundpage/Contents.swift)
 
 <hr>
 <h3>You can download the playground and open it in xcode for an easier viewing experience</h3>
