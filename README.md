@@ -18,8 +18,9 @@
 ### g)Enumerations
 => [`MyPlayground.playground/Pages/Enums.xcplaygroundpage/Contents.swift`](https://github.com/raghavTinker/my-swift-escapades/blob/main/MyPlayground.playground/Pages/Enums.xcplaygroundpage/Contents.swift)<br>
 ### h)Structures
-=> [`MyPlayground.playground/Pages/Enums.xcplaygroundpage/Contents.swift`](https://github.com/raghavTinker/my-swift-escapades/blob/main/MyPlayground.playground/Pages/Structures.xcplaygroundpage/Contents.swift)<br>
-
+=> [`MyPlayground.playground/Pages/Structures.xcplaygroundpage/Contents.swift`](https://github.com/raghavTinker/my-swift-escapades/blob/main/MyPlayground.playground/Pages/Structures.xcplaygroundpage/Contents.swift)<br>
+### i)Structures
+=> [`MyPlayground.playground/Pages/Protocols.xcplaygroundpage/Contents.swift`](https://github.com/raghavTinker/my-swift-escapades/blob/main/MyPlayground.playground/Pages/Protocols.xcplaygroundpage/Contents.swift)<br>
 
 <hr>
 <h3>You can download the playground and open it in xcode for an easier viewing experience</h3>
